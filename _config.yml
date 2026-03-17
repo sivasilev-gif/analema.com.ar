@@ -1,0 +1,10 @@
+title: Analema Consulting
+email: contacto@analema.com.ar
+description: Coaching ontológico · Gestión emocional · Consultoría organizacional · Automatización Low Code
+baseurl: ""
+url: "https://analema.com.ar"
+theme: minima
+markdown: kramdown
+collections:
+  posts:
+    output: true
