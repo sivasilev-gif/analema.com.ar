@@ -1,1 +1,32 @@
-<html><body>{{ content }}</body></html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} – Analema Consulting</title>
+
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="container nav-flex">
+    <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="Analema Consulting" class="logo">
+    <nav>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
+        <li><a href="{{ '/about' | relative_url }}">Nosotros</a></li>
+        <li><a href="{{ '/servicios' | relative_url }}">Servicios</a></li>
+        <li><a href="{{ '/contacto' | relative_url }}">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="page-content container">
+  {{ content }}
+</main>
+
+</body>
+</html>
