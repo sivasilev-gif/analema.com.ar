@@ -104,3 +104,7 @@ nav ul li a:hover {
 .service-card a:hover {
   background: #6a006a;
 }
+
+.logo {
+  height: 60px;
+}
