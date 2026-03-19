@@ -285,3 +285,14 @@ nav ul {
   opacity: 0;
   transform: translateY(-10px);
 }
+
+@media (max-width: 768px) {
+  nav ul {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  nav ul li {
+    width: 100%;
+  }
+}
