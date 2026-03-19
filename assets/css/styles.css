@@ -109,6 +109,10 @@ nav ul li a:hover {
   height: 60px;
 }
 
+/* ==========================
+   RESPONSIVE - MOBILE 
+   ========================== */
+
 @media (max-width: 768px) {
 
   /* NAV - Reduce padding y centra elementos */
@@ -164,6 +168,8 @@ nav ul li a:hover {
   }
 }
 
+
+/* Extra pequeño: 480px */
 @media (max-width: 480px) {
 
   nav ul {
@@ -189,5 +195,22 @@ nav ul li a:hover {
 
   .service-card {
     width: 95%;
+  }
+}
+
+/* MOBILE FIX — fuerza a que el menú no expanda la pantalla en iPhone */
+nav ul {
+  flex-wrap: wrap;
+}
+
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
   }
 }
