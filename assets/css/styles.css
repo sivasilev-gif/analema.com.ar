@@ -108,9 +108,6 @@ nav ul li a:hover {
 .logo {
   height: 60px;
 }
-/* ==========================
-   RESPONSIVE - MOBILE 
-   ========================== */
 
 @media (max-width: 768px) {
 
@@ -167,8 +164,6 @@ nav ul li a:hover {
   }
 }
 
-
-/* Extra pequeño: 480px */
 @media (max-width: 480px) {
 
   nav ul {
