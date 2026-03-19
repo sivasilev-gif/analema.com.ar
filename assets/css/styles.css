@@ -258,3 +258,88 @@ nav ul li a:hover {
     width: 95%;
   }
 }
+
+/* ==========================
+   FOOTER CORPORATIVO
+========================== */
+
+.footer {
+  background: #8a008a;
+  color: white;
+  margin-top: 50px;
+  padding: 40px 0 20px 0;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.footer-column h4 {
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: white;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.footer-description {
+  max-width: 260px;
+  line-height: 1.5;
+  font-size: 14px;
+  opacity: 0.95;
+}
+
+.footer-logo {
+  height: 55px;
+  margin-bottom: 12px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 35px;
+  padding-top: 15px;
+  font-size: 13px;
+  opacity: 0.6;
+  border-top: 1px solid rgba(255,255,255,0.25);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    text-align: center;
+  }
+
+  .footer-logo {
+    margin: 0 auto 12px auto;
+  }
+
+  .footer-description {
+    margin: 0 auto;
+    max-width: 85%;
+  }
+}
