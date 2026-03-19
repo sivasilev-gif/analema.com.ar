@@ -13,6 +13,26 @@
 </head>
 
 <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  
+<body>
+
+<header class="topbar">
+  <div class="container nav-flex">
+    <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="Analema Consulting" class="logo">
+    <nav>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
+        <li><a href="{{ '/about' | relative_url }}">Nosotros</a></li>
+        <li><a href="{{ '/servicios' | relative_url }}">Servicios</a></li>
+        <li><a href="{{ '/contacto' | relative_url }}">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="page-content container">
+  {{ content }}
+</main>
 
 <footer class="footer">
   <div class="container footer-grid">
@@ -48,25 +68,5 @@
   </div>
 </footer>
   
-<body>
-
-<header class="topbar">
-  <div class="container nav-flex">
-    <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="Analema Consulting" class="logo">
-    <nav>
-      <ul>
-        <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
-        <li><a href="{{ '/about' | relative_url }}">Nosotros</a></li>
-        <li><a href="{{ '/servicios' | relative_url }}">Servicios</a></li>
-        <li><a href="{{ '/contacto' | relative_url }}">Contacto</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-<main class="page-content container">
-  {{ content }}
-</main>
-
 </body>
 </html>
