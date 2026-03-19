@@ -27,12 +27,17 @@ body {
 .topbar {
   background: #8a008a;
   padding: 12px 0;
+  position: relative;
 }
 
 .nav-flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.logo {
+  height: 60px;
 }
 
 /* Desktop menu visible */
@@ -55,11 +60,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-.logo {
-  height: 60px;
-}
-
-/* Hamburguesa (solo móvil) */
+/* Hamburguesa oculta en desktop */
 .menu-toggle {
   display: none;
   background: none;
@@ -100,6 +101,7 @@ nav ul li a:hover {
   font-size: 12px;
   border-radius: 4px;
 }
+
 
 /* ==========================
    SERVICE CARDS
@@ -154,7 +156,6 @@ nav ul li a:hover {
 
 @media (max-width: 768px) {
 
-  /* HEADER */
   .topbar {
     padding: 8px 0;
   }
@@ -163,26 +164,33 @@ nav ul li a:hover {
     height: 45px;
   }
 
-  /* Hamburguesa visible */
+  /* Mostrar hamburguesa */
   .menu-toggle {
     display: block;
   }
 
-  /* Menú oculto por defecto */
+  /* Ocultar menú por defecto */
   nav ul {
-    display: none;
+    display: none !important;
     flex-direction: column;
     gap: 15px;
     background: #8a008a;
     padding: 15px;
-    border-radius: 6px;
-    margin-top: 12px;
+    border-radius: 0 0 8px 8px;
+
+    /* POSICIÓN DEFINITIVA */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: auto;
+    width: 100%;
+
     text-align: left;
     opacity: 0;
     transform: translateY(-10px);
   }
 
-  /* Menú cuando está abierto */
+  /* Menú abierto */
   nav ul.open {
     display: flex !important;
     opacity: 1;
@@ -221,7 +229,7 @@ nav ul li a:hover {
 
 
 /* ==========================
-   EXTRA SMALL (iPhone SE, etc.)
+   EXTRA SMALL (iPhone SE)
 ========================== */
 
 @media (max-width: 480px) {
