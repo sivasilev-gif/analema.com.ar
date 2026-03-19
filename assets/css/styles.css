@@ -296,3 +296,48 @@ nav ul {
     width: 100%;
   }
 }
+
+/* ==========================
+   MENU HAMBURGUESA - CORPORATIVO
+   ========================== */
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Desktop: menú normal */
+nav ul {
+  display: flex;
+  gap: 25px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  /* Mostrar hamburguesa */
+  .menu-toggle {
+    display: block;
+  }
+
+  /* Ocultar menú por defecto */
+  nav ul {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    background: #8a008a;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 6px;
+    text-align: left;
+  }
+
+  /* Cuando se abre el menú */
+  nav ul.open {
+    display: flex;
+  }
+}
