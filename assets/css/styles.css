@@ -1,4 +1,7 @@
-/* GENERAL */
+/* ==========================
+   BASE GENERAL
+========================== */
+
 body {
   margin: 0;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -12,10 +15,18 @@ body {
   margin: auto;
 }
 
-/* NAV */
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+/* ==========================
+   HEADER + NAV
+========================== */
+
 .topbar {
   background: #8a008a;
-  padding: 10px 0;
+  padding: 12px 0;
 }
 
 .nav-flex {
@@ -24,11 +35,14 @@ body {
   align-items: center;
 }
 
+/* Desktop menu visible */
 nav ul {
   display: flex;
   list-style: none;
   gap: 25px;
   padding: 0;
+  margin: 0;
+  transition: all 0.25s ease;
 }
 
 nav ul li a {
@@ -41,7 +55,26 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* HERO */
+.logo {
+  height: 60px;
+}
+
+/* Hamburguesa (solo móvil) */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+
+/* ==========================
+   HERO
+========================== */
+
 .hero {
   background-image: url('/assets/img/header.jpg');
   background-size: cover;
@@ -68,7 +101,10 @@ nav ul li a:hover {
   border-radius: 4px;
 }
 
-/* SERVICES */
+/* ==========================
+   SERVICE CARDS
+========================== */
+
 .services {
   display: flex;
   gap: 30px;
@@ -82,6 +118,12 @@ nav ul li a:hover {
   text-align: center;
   flex: 1;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
 .service-card img {
@@ -105,28 +147,50 @@ nav ul li a:hover {
   background: #6a006a;
 }
 
-.logo {
-  height: 60px;
-}
 
 /* ==========================
-   RESPONSIVE - MOBILE 
-   ========================== */
+   RESPONSIVE - TABLET & MOBILE
+========================== */
 
 @media (max-width: 768px) {
 
-  /* NAV - Reduce padding y centra elementos */
+  /* HEADER */
   .topbar {
-    padding: 5px 0;
-  }
-
-  nav ul {
-    gap: 10px;
-    font-size: 14px;
+    padding: 8px 0;
   }
 
   .logo {
     height: 45px;
+  }
+
+  /* Hamburguesa visible */
+  .menu-toggle {
+    display: block;
+  }
+
+  /* Menú oculto por defecto */
+  nav ul {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    background: #8a008a;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 12px;
+    text-align: left;
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  /* Menú cuando está abierto */
+  nav ul.open {
+    display: flex !important;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  nav ul li {
+    width: 100%;
   }
 
   /* HERO */
@@ -138,47 +202,36 @@ nav ul li a:hover {
     font-size: 24px;
   }
 
-  /* SERVICES - 1 columna */
+  /* SERVICES */
   .services {
     flex-direction: column;
     gap: 20px;
   }
 
   .service-card {
-    margin: 0 auto;
     width: 90%;
+    margin: auto;
   }
 
   .service-card img {
     width: 90px;
     height: 90px;
   }
-
-  .service-card h3 {
-    font-size: 18px;
-  }
-
-  .service-card p {
-    font-size: 15px;
-  }
-
-  .service-card a {
-    padding: 8px 16px;
-    font-size: 14px;
-  }
 }
 
 
-/* Extra pequeño: 480px */
-@media (max-width: 480px) {
+/* ==========================
+   EXTRA SMALL (iPhone SE, etc.)
+========================== */
 
-  nav ul {
-    gap: 6px;
-    font-size: 13px;
-  }
+@media (max-width: 480px) {
 
   .logo {
     height: 40px;
+  }
+
+  nav ul {
+    font-size: 14px;
   }
 
   .hero {
@@ -195,149 +248,5 @@ nav ul li a:hover {
 
   .service-card {
     width: 95%;
-  }
-}
-
-/* MOBILE FIX — fuerza a que el menú no expanda la pantalla en iPhone */
-nav ul {
-  flex-wrap: wrap;
-}
-
-* {
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
-@media screen and (max-width: 768px) {
-  html, body {
-    overflow-x: hidden;
-    width: 100%;
-  }
-}
-
-/* MENU HAMBURGUESA */
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 28px;
-  color: white;
-  cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  nav ul {
-    display: none;
-    flex-direction: column;
-    gap: 15px;
-    background: #8a008a;
-    padding: 15px;
-    margin: 0;
-    border-radius: 6px;
-  }
-
-  nav ul.open {
-    display: flex;
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-}
-
-.menu-toggle {
-  margin-left: auto;
-  margin-right: 0;
-}
-
-@media (max-width: 768px) {
-  .topbar {
-    padding: 8px 0;
-  }
-
-  .nav-flex {
-    align-items: center;
-  }
-}
-
-@media (max-width: 768px) {
-  nav ul {
-    text-align: left;
-    padding-top: 10px;
-  }
-
-  nav ul li a {
-    padding: 6px 0;
-    display: block;
-  }
-}
-
-nav ul {
-  transition: all 0.25s ease;
-}
-
-nav ul.open {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-nav ul {
-  opacity: 0;
-  transform: translateY(-10px);
-}
-
-@media (max-width: 768px) {
-  nav ul {
-    text-align: left;
-    align-items: flex-start;
-  }
-
-  nav ul li {
-    width: 100%;
-  }
-}
-
-/* ==========================
-   MENU HAMBURGUESA - CORPORATIVO
-   ========================== */
-
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 28px;
-  color: white;
-  cursor: pointer;
-}
-
-/* Desktop: menú normal */
-nav ul {
-  display: flex;
-  gap: 25px;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-
-  /* Mostrar hamburguesa */
-  .menu-toggle {
-    display: block;
-  }
-
-  /* Ocultar menú por defecto */
-  nav ul {
-    display: none;
-    flex-direction: column;
-    gap: 15px;
-    background: #8a008a;
-    padding: 15px;
-    margin-top: 10px;
-    border-radius: 6px;
-    text-align: left;
-  }
-
-  /* Cuando se abre el menú */
-  nav ul.open {
-    display: flex;
   }
 }
