@@ -204,5 +204,18 @@ Lo que importa es tu disposición a aprender.
 
 ---
 
-¿Querés más información?  
-👉 /contactoContacto</a>
+<div style="margin-top:40px; text-align:center;">
+  <a href="{{ '/contacto' | relative_url }}" 
+     style="
+       background:#8a008a;
+       color:white;
+       padding:12px 25px;
+       border-radius:6px;
+       text-decoration:none;
+       font-weight:600;
+       font-size:16px;
+       display:inline-block;
+     ">
+     👉 Quiero más información sobre la Escuela
+  </a>
+</div>
