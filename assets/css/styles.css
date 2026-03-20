@@ -343,3 +343,37 @@ nav ul li a:hover {
     max-width: 85%;
   }
 }
+
+/* ==========================
+   ACORDEÓN EFCO
+========================== */
+
+.accordion {
+  margin-top: 40px;
+}
+
+.ac-item {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.ac-title {
+  display: block;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.ac-content {
+  display: none;
+  padding: 10px 0 20px 0;
+  line-height: 1.6;
+}
+
+.ac-item input {
+  display: none;
+}
+
+.ac-item input:checked ~ .ac-content {
+  display: block;
+}
