@@ -378,6 +378,13 @@ nav ul li a:hover {
   display: block;
 }
 
+/* Permitir saltos de línea dentro del acordeón */
+.ac-content p,
+.ac-content li,
+.ac-content {
+  white-space: pre-line;
+}
+
 /* ==========================
    SUBMENÚ CORPORATIVO — FIX
 ========================== */
