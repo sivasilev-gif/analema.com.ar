@@ -450,3 +450,30 @@ h1, h2 {
   color: #d50064;
   font-weight: 600;
 }
+
+/* ==========================
+   Ajustes de interlineado EFCO
+========================== */
+.ac-content {
+  white-space: pre-line;
+  line-height: 1.45;       /* ACHICA el interlineado general */
+}
+
+.ac-content p {
+  margin: 0 0 8px 0;       /* Reduce espacio entre párrafos */
+  line-height: 1.45;
+}
+
+.ac-content ul,
+.ac-content li {
+  margin: 0 0 6px 0;       /* Reduce espacio de listas */
+  line-height: 1.4;
+}
+
+.ac-content strong {
+  line-height: 1.4;        /* Negritas más integradas */
+}
+
+.ac-title {
+  margin-bottom: 6px;      /* Reduce espacio entre pregunta y contenido */
+}
