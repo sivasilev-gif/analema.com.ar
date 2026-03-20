@@ -377,3 +377,56 @@ nav ul li a:hover {
 .ac-item input:checked ~ .ac-content {
   display: block;
 }
+
+/* ==========================
+   SUBMENÚ CORPORATIVO
+========================== */
+
+.has-submenu {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #8a008a;
+  padding: 10px 0;
+  list-style: none;
+  width: 220px;
+  border-radius: 0 0 6px 6px;
+}
+
+.submenu li a {
+  display: block;
+  padding: 8px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.submenu li a:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+/* Hover en desktop */
+@media (min-width: 769px) {
+  .has-submenu:hover .submenu {
+    display: block;
+  }
+}
+
+/* MÓVIL — el submenu aparece dentro del menú hamburguesa */
+@media (max-width: 768px) {
+
+  .submenu {
+    position: static;
+    width: 100%;
+    padding-left: 15px;
+  }
+
+  .has-submenu > a::after {
+    content: '';
+  }
+
+}
