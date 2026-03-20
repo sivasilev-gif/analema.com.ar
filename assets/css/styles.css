@@ -432,3 +432,14 @@ nav ul li a:hover {
     content: "";
   }
 }
+
+/* Títulos en color corporativo */
+h1, h2 {
+  color: #8a008a;
+}
+
+/* Preguntas del acordeón (FAQ) en rosa institucional */
+.ac-title {
+  color: #d50064;
+  font-weight: 600;
+}
