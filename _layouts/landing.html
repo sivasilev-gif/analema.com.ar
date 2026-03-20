@@ -23,16 +23,25 @@
     <button class="menu-toggle" aria-label="Abrir menú">☰</button>
     
     <nav>
-      <ul>
-        <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
-        <li><a href="{{ '/about' | relative_url }}">Nosotros</a></li>
-        <li><a href="{{ '/servicios' | relative_url }}">Servicios</a></li>
-        <li><a href="{{ '/efco' | relative_url }}">EFCO</a></li>
+  <ul class="main-menu">
+
+    <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
+    <li><a href="{{ '/about' | relative_url }}">Nosotros</a></li>
+
+    <!-- MENÚ SERVICIOS CON SUBMENÚ -->
+    <li class="has-submenu">
+      <a href="{{ '/servicios' | relative_url }}">Servicios ▾</a>
+      <ul class="submenu">
+        <li><a href="{{ '/efco' | relative_url }}">EFCO – Escuela de Coaching</a></li>
         <li><a href="{{ '/organizaciones' | relative_url }}">Organizaciones</a></li>
         <li><a href="{{ '/automatizacion' | relative_url }}">Automatización</a></li>
-        <li><a href="{{ '/contacto' | relative_url }}">Contacto</a></li>
       </ul>
-    </nav>
+    </li>
+
+    <li><a href="{{ '/contacto' | relative_url }}">Contacto</a></li>
+
+  </ul>
+</nav>
   </div>
 </header>
 
