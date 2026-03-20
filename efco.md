@@ -29,23 +29,22 @@ Hacé clic en cada bloque para desplegar el contenido.
   <label for="faq1" class="ac-title">¿Cuánto cuesta su formación?</label>
   <div class="ac-content">
 
-**En Analema buscamos que la formación sea accesible, honesta y flexible**, con un recorrido claro desde el primer día.
+<p><strong>En Analema buscamos que la formación sea accesible, honesta y flexible</strong>, con un recorrido claro desde el primer día.</p>
 
-### ➡️ Primer mes completamente gratuito
-Para que vivas la experiencia en primera persona:  
-clases, docentes, práctica, comunidad.  
-Sin promesas vacías: **si querés saber de qué se trata, vení directamente a las clases.**
+<p><strong>➡️ ¡Primera clase gratis!</strong><br>
+Para que vivas la experiencia en primera persona: modalidad de clase, docentes, práctica, comunidad.<br>
+Sin promesas vacías: si querés saber de qué se trata, vení directamente a las clases.</p>
 
-### ➡️ Ingreso flexible hasta mitad de año
-Podés sumarte **hasta el 27 de junio**.
+<p><strong>➡️ Ingreso flexible hasta mitad de año</strong><br>
+Podés sumarte hasta el <strong>27 de junio</strong>.</p>
 
-### ➡️ Costo del primer año
-El primer año se organiza en módulos de cuatro clases.  
-Cada módulo tiene un valor de **AR$ 25.000**, lo que sale lo mismo que un combo de comida rápida.
+<p><strong>➡️ Costo del primer año</strong><br>
+Primer año organizado en módulos de cuatro clases.<br>
+Cada módulo tiene un valor de <strong>AR$ 25.000</strong>.</p>
 
-### ➡️ Costo del segundo año
-La exigencia pedagógica y carga horaria aumentan significativamente.  
-Por eso, el valor del módulo **se duplica** respecto al primer año.
+<p><strong>➡️ Costo del segundo año</strong><br>
+El segundo año la exigencia pedagógica y carga horaria aumentan significativamente.<br>
+Por eso, el valor del módulo <strong>se duplica</strong> respecto al primer año.</p>
 
   </div>
 </div>
@@ -56,7 +55,7 @@ Por eso, el valor del módulo **se duplica** respecto al primer año.
   <label for="faq2" class="ac-title">¿Cuánto dura su formación?</label>
   <div class="ac-content">
 
-La formación tiene una duración de **dos años**, con un **tercer año opcional** para quienes quieran profundizar sin obligación de extender tiempo ni costo.
+<p>La formación tiene una duración de <strong>dos años</strong>, con un <strong>tercer año opcional</strong> para quienes deseen profundizar sin extender tiempo ni costo.</p>
 
   </div>
 </div>
@@ -67,14 +66,14 @@ La formación tiene una duración de **dos años**, con un **tercer año opciona
   <label for="faq3" class="ac-title">¿Qué pasa cada año?</label>
   <div class="ac-content">
 
-### **Año 1 – Competencias Básicas**
-Hablar asertivamente, escuchar profundamente, gestionar emociones, comprender el cuerpo y el lenguaje.
+<p><strong><u>Año 1 – Competencias básicas</u></strong><br>
+Hablar asertivamente, escuchar profundamente, gestionar emociones, comprender cuerpo y lenguaje.</p>
 
-### **Año 2 – Práctica Profesional (1 a 1)**
-Aplicación rigurosa de las competencias en procesos reales, con acompañamiento docente.
+<p><strong><u>Año 2 – Práctica Profesional (1 a 1)</u></strong><br>
+Aplicación de competencias en procesos reales, con acompañamiento docente.</p>
 
-### **Año 3 (optativo) – Coaching Grupal y Organizacional**
-Profesionalización en ámbitos grupales y laborales.
+<p><strong><u>Año 3 – Optativo</u></strong><br>
+Especialización en coaching grupal y organizacional.</p>
 
   </div>
 </div>
@@ -85,18 +84,22 @@ Profesionalización en ámbitos grupales y laborales.
   <label for="faq4" class="ac-title">¿Cómo se cursa?</label>
   <div class="ac-content">
 
-### **Primer año**
-Presencial-online, **miércoles de 19 a 21:30**, del 1° de abril al 17 de noviembre (8 módulos de 4 clases).
+<p><strong><u>Días y horarios</u></strong></p>
 
-### **Segundo año**
-Presencial-online, **martes y jueves de 19 a 22 h**.
+<p><strong>Primer año:</strong><br>
+Presencial-online una vez por semana, <strong>miércoles de 19 a 21:30 h</strong>, del 1° de abril al 17 de noviembre (8 módulos de 4 clases).</p>
 
-### **Plataforma**
-Toda la formación se realiza en **Microsoft Teams**:  
-clases, contenidos académicos, comunicación y práctica.
+<p><strong>Segundo año:</strong><br>
+Presencial-online dos veces por semana, <strong>martes y jueves de 19 a 22 h</strong>.</p>
 
-### **Aclaración**
-El ingreso a la plataforma se efectiviza con la primera cuota paga.
+<p><strong><u>Plataforma de estudio</u></strong><br>
+La formación se realiza en <strong>Microsoft Teams</strong>, donde se integra:<br>
+- campus virtual  
+- clases online  
+- comunicación con docentes  
+- materiales y prácticas</p>
+
+<p><em>Aclaración:</em> el ingreso a la plataforma se efectiviza con la primera cuota paga.</p>
 
   </div>
 </div>
@@ -107,20 +110,15 @@ El ingreso a la plataforma se efectiviza con la primera cuota paga.
   <label for="faq5" class="ac-title">¿En qué puedo trabajar al recibirme?</label>
   <div class="ac-content">
 
-### **Procesos individuales (1 a 1)**
-Acompañamiento en claridad emocional, comunicación, vínculos, decisiones.
+<p><strong>La formación prepara para múltiples ámbitos profesionales:</strong></p>
 
-### **Trabajo en empresas y organizaciones**
-Liderazgo, clima, coordinación, conversaciones efectivas, gestión emocional.
-
-### **Facilitación de grupos y talleres**
-Talleres temáticos, espacios colectivos, grupos de aprendizaje.
-
-### **Consultoría humana**
-RRHH, cultura, bienestar, desarrollo organizacional.
-
-### **Proyecto propio**
-Talleres, programas y propuestas independientes.
+<ul>
+  <li><strong>Procesos individuales (1 a 1)</strong>: acompañamiento emocional, comunicación, vínculos, decisiones.</li>
+  <li><strong>Trabajo en empresas y organizaciones</strong>: liderazgo, clima laboral, coordinación de acciones, gestión emocional.</li>
+  <li><strong>Facilitación de grupos y talleres</strong>: espacios colectivos y aprendizaje grupal.</li>
+  <li><strong>Consultoría humana</strong>: RRHH, bienestar, cultura interna.</li>
+  <li><strong>Proyecto propio o independiente</strong>: programas, talleres o servicios propios.</li>
+</ul>
 
   </div>
 </div>
@@ -131,29 +129,18 @@ Talleres, programas y propuestas independientes.
   <label for="faq6" class="ac-title">¿Qué hace que esta escuela sea diferente?</label>
   <div class="ac-content">
 
-### **➡️ Formación rigurosa, pero cercana**
-Modelo pedagógico sólido, con calidez y acompañamiento real.
+<p><strong>En Analema no buscamos venderte un curso, sino ofrecerte una formación seria, honesta y humana.</strong></p>
 
-### **➡️ Profesores con práctica profesional actual**
-Lo que enseñamos surge de experiencia real.
-
-### **➡️ Comunidad donde podés preguntar, equivocarte y crecer**
-Nada de cursos masivos: aprendizaje humano.
-
-### **➡️ Ética y honestidad como principios**
-Sin promesas vacías ni certificaciones mágicas.
-
-### **➡️ Enfoque conversacional aplicable desde el primer mes**
-Herramientas reales para vida, trabajo y vínculos.
-
-### **➡️ Ecosistema Microsoft**
-Claridad, orden y un espacio de aprendizaje profesional.
-
-### **➡️ Acompañamiento progresivo**
-Prácticas guiadas, supervisiones y crecimiento real.
-
-### **➡️ Accesible y flexible**
-Primer mes gratuito, ingreso flexible, cuotas accesibles.
+<ul>
+  <li><strong>Formación con rigor, pero cercana</strong>: modelo pedagógico sólido, con acompañamiento real.</li>
+  <li><strong>Profesores con práctica actual</strong>: la experiencia proviene de casos reales.</li>
+  <li><strong>Comunidad donde podés equivocarte y crecer</strong>: aprendizaje humano, no masivo.</li>
+  <li><strong>Ética y honestidad</strong>: sin títulos vacíos ni promesas mágicas.</li>
+  <li><strong>Enfoque conversacional moderno</strong>: aplicable desde el primer mes.</li>
+  <li><strong>Ecosistema Microsoft</strong>: claridad, orden y profesionalidad.</li>
+  <li><strong>Acompañamiento progresivo</strong>: prácticas guiadas y supervisadas.</li>
+  <li><strong>Modelo accesible</strong>: primer mes gratuito, ingreso flexible, cuotas accesibles.</li>
+</ul>
 
   </div>
 </div>
@@ -164,16 +151,23 @@ Primer mes gratuito, ingreso flexible, cuotas accesibles.
   <label for="faq7" class="ac-title">¿Cómo se evalúa lo que aprendo?</label>
   <div class="ac-content">
 
-### **Primer año**
-Evaluación basada en:
-- apuntes de clase  
-- prácticas grabadas con compañeros  
+<p><strong>En Analema creemos que nadie aprende solo.</strong><br>
+Nuestro sistema de evaluación acompaña, no castiga.</p>
 
-### **Segundo año**
-Criterios más formales y rigurosos (práctica profesional real).
+<p><strong><u>Acompañamiento constante</u></strong><br>
+Comunicación continua vía Teams para dudas, devoluciones y práctica.</p>
 
-### **Acompañamiento constante y comunidad**
-Preguntar, practicar, equivocarte y seguir aprendiendo.
+<p><strong><u>Evaluación del primer año</u></strong></p>
+<ul>
+  <li><strong>Apuntes de clase</strong>: estrategia neurocognitiva que ayuda a integrar contenido.</li>
+  <li><strong>Ejercicios de práctica grabados</strong>: núcleo del entrenamiento real.</li>
+</ul>
+
+<p><strong><u>Segundo año</u></strong><br>
+Criterios más formales, práctica profesional real y supervisada.</p>
+
+<p><strong><u>Plan flexible</u></strong><br>
+Se ajusta la pedagogía según el ritmo y necesidad del grupo.</p>
 
   </div>
 </div>
@@ -184,18 +178,19 @@ Preguntar, practicar, equivocarte y seguir aprendiendo.
   <label for="faq8" class="ac-title">¿Qué necesito para inscribirme?</label>
   <div class="ac-content">
 
-### Requisitos de ingreso
-- Secundario completo  
-- Amor por el lenguaje  
-- Ganas de comprender  
-- Compromiso con la práctica  
+<p><strong>Requisitos de ingreso:</strong></p>
 
-### No pedimos
-- experiencia previa  
-- títulos universitarios  
-- habilidades especiales  
+<ul>
+  <li><strong>Secundario completo</strong> (excluyente).</li>
+  <li><strong>Amor por el lenguaje</strong>.</li>
+  <li><strong>Ganas de comprender</strong>.</li>
+  <li><strong>Compromiso con la práctica</strong>.</li>
+</ul>
 
-Lo que importa es tu disposición a aprender.
+<p><strong>No pedimos:</strong><br>
+experiencia previa, títulos, habilidades especiales.</p>
+
+<p>Esperamos disposición al aprendizaje y respeto por el proceso.</p>
 
   </div>
 </div>
