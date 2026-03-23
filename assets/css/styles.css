@@ -780,3 +780,21 @@ nav {
   position: relative;
   z-index: 1;
 }
+
+/* ============================================
+   FIX TOTAL — Traer el header arriba del HERO
+============================================ */
+.topbar,
+.nav-flex,
+nav,
+.menu-toggle {
+  position: relative !important;
+  z-index: 9999 !important;
+}
+
+/* Asegurar que el hero NO tape el header */
+.page-hero-efco,
+.hero {
+  position: relative !important;
+  z-index: 1 !important;
+}
