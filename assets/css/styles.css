@@ -581,3 +581,41 @@ h1, h2 {
   padding: 6px 0;
   line-height: 1.2;
 }
+
+/* ===========================================
+   EFCO — Interlineado definitivo (override)
+=========================================== */
+
+.ac-content {
+  white-space: pre-line !important;
+  line-height: 1.32 !important;        /* Interlineado compacto */
+  padding: 5px 0 6px 0 !important;     /* Mucho menos aire */
+  font-size: 15px;
+}
+
+.ac-content p {
+  margin: 2px 0 6px 0 !important;      /* Párrafos muy controlados */
+  line-height: 1.32 !important;
+}
+
+.ac-content ul {
+  margin: 4px 0 6px 18px !important;   /* Listas más pegadas */
+  padding-left: 0 !important;
+}
+
+.ac-content li {
+  margin: 1px 0 !important;
+  line-height: 1.28 !important;
+}
+
+.ac-content strong {
+  line-height: 1.28 !important;        /* Negritas integradas */
+}
+
+.ac-content h3,
+.ac-content h4,
+.ac-content h5 {
+  margin: 6px 0 4px 0 !important;
+  padding: 0 !important;
+  line-height: 1.25 !important;
+}
