@@ -798,3 +798,27 @@ nav,
   position: relative !important;
   z-index: 1 !important;
 }
+
+/* Página de contacto */
+.contact-form-wrapper {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.contact-form-wrapper iframe {
+  border-radius: 8px;
+  border: 2px solid #8a008a;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+.page-content h1 {
+  color: #8a008a;
+  margin-bottom: 10px;
+}
+
+.page-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 650px;
+}
