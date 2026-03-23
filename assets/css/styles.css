@@ -896,3 +896,50 @@ nav,
     z-index: 9998 !important;
   }
 }
+
+/* ===========================================================
+   MENÚ MÓVIL FINAL — Funciona en TODAS las páginas
+=========================================================== */
+
+@media (max-width: 768px) {
+
+  /* Mostrar hamburguesa */
+  .menu-toggle {
+    display: block !important;
+    position: relative !important;
+    z-index: 9999 !important;
+    color: white !important;
+  }
+
+  /* Ocultar menú desktop */
+  nav ul {
+    display: none !important;
+  }
+
+  /* Menú móvil desplegable */
+  nav ul.open {
+    display: flex !important;
+    flex-direction: column !important;
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    width: 100% !important;
+    background: #8a008a !important;
+    padding: 15px 0 !important;
+    z-index: 9998 !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  }
+
+  nav ul.open li {
+    width: 100%;
+    padding: 8px 20px;
+  }
+
+  nav ul.open li a {
+    color: white !important;
+  }
+}
+
+.page-hero-efco-overlay h1 {
+  color: white !important;
+}
