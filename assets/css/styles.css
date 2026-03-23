@@ -36,6 +36,35 @@ body {
   align-items: center;
 }
 
+/* HERO específico para EFCO */
+.page-hero-efco {
+  width: 100%;
+  height: 260px;
+  position: relative;
+  overflow: hidden;
+}
+
+.page-hero-efco img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-hero-efco-overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  background: rgba(138, 0, 138, 0.85);
+  padding: 12px 20px;
+  border-radius: 6px;
+}
+
+.page-hero-efco-overlay h1 {
+  margin: 0;
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+}
 .logo {
   height: 60px;
 }
