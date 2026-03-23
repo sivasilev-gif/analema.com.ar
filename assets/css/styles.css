@@ -841,3 +841,58 @@ nav,
     z-index: 9999 !important;
   }
 }
+
+/* ===========================================================
+   FIX FINAL — Menú hamburguesa perfectamente alineado en móvil
+   =========================================================== */
+
+@media (max-width: 768px) {
+
+  /* 1. Mostrar siempre la hamburguesa en móvil */
+  .menu-toggle {
+    display: block !important;
+    position: relative !important;
+    z-index: 9999 !important;
+    margin-left: auto;
+    color: white;
+  }
+
+  /* 2. Apagar el menú desktop definitivamente en móvil */
+  nav ul {
+    display: none !important;
+    flex-direction: column !important;
+    margin: 0 !important;
+    padding: 12px 0 !important;
+    gap: 15px !important;
+
+    /* 3. CLAVE: que NO sea absolute */
+    position: static !important;
+
+    /* 4. Ocupa TODO el ancho */
+    width: 100% !important;
+
+    /* 5. Fondo púrpura coherente */
+    background: #8a008a !important;
+
+    /* 6. Caída natural debajo del header */
+    border-radius: 0 !important;
+
+    /* 7. Sin desplazamiento */
+    transform: none !important;
+    opacity: 1 !important;
+    left: 0 !important;
+    right: 0 !important;
+    top: auto !important;
+  }
+
+  /* 8. Cuando el menú está abierto */
+  nav ul.open {
+    display: flex !important;
+  }
+
+  /* 9. Reasegurar jerarquía visual */
+  .topbar, nav, .nav-flex {
+    position: relative !important;
+    z-index: 9998 !important;
+  }
+}
