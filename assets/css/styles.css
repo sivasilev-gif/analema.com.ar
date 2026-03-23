@@ -822,3 +822,22 @@ nav,
   line-height: 1.5;
   max-width: 650px;
 }
+
+/* ===========================================
+   FIX DEFINITIVO – Menú móvil desaparecido
+=========================================== */
+
+@media (max-width: 768px) {
+
+  /* Apagar menú desktop de una vez por todas */
+  nav ul {
+    display: none !important;
+  }
+
+  /* Encender botón hamburguesa obligatoriamente */
+  .menu-toggle {
+    display: block !important;
+    color: white !important;
+    z-index: 9999 !important;
+  }
+}
