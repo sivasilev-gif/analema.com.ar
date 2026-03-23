@@ -766,3 +766,17 @@ h1, h2 {
     overflow: visible !important;
   }
 }
+
+/* FIX CRÍTICO — asegurar que el header esté por encima del hero */
+.topbar,
+.nav-flex,
+.menu-toggle,
+nav {
+  position: relative;
+  z-index: 9999 !important;
+}
+
+.page-hero-efco {
+  position: relative;
+  z-index: 1;
+}
