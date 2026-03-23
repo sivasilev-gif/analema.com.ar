@@ -211,7 +211,7 @@ Dinámicas, intervenciones, diseño de procesos, manejo de grupos y desarrollo o
 <!-- ============ EVALUACIÓN ============= -->
 <div class="ac-item">
   <input type="checkbox" id="faq9">
-  <label for="faq9" class="ac-title">¿Cómo se evalúa lo que aprendo?</label>
+  <label for="faq9" class="ac-title">¿Cómo evalúan lo que aprendo?</label>
   <div class="ac-content">
 
 <p><strong>En Analema creemos que nadie aprende solo.</strong><br>
