@@ -200,7 +200,7 @@ experiencia previa, títulos, habilidades especiales.</p>
 ---
 
 <div style="margin-top:40px; text-align:center;">
-  <a href="{{ '/contacto' | relative_url }}" 
+  <a href="https://forms.office.com/r/VtbWA8wM7A" 
      style="
        background:#8a008a;
        color:white;
@@ -211,6 +211,6 @@ experiencia previa, títulos, habilidades especiales.</p>
        font-size:16px;
        display:inline-block;
      ">
-     👉 Quiero más información sobre la Escuela
+     👉 ¡Quiero mi primera clase gratuita!
   </a>
 </div>
