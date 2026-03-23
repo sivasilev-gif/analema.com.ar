@@ -1,3 +1,10 @@
+<div class="page-hero-efco">
+  {{ 
+  <div class="page-hero-efco-overlay">
+    <h1>Escuela de Formación en Coaching Ontológico</h1>
+  </div>
+</div>
+
 ---
 layout: default
 title: EFCO – Escuela de Formación en Coaching Ontológico
