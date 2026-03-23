@@ -738,3 +738,31 @@ h1, h2 {
   font-size: 28px;
   font-weight: 600;
 }
+
+/* ============================================
+   FIX CRÍTICO — Mostrar menú hamburguesa en móvil
+============================================ */
+
+@media (max-width: 768px) {
+
+  /* Asegurar que el botón aparezca */
+  .menu-toggle {
+    display: block !important;
+    color: white !important;
+    z-index: 9999;
+    margin-left: auto;
+    margin-right: 0;
+    position: relative;
+  }
+
+  /* Asegurar que el menú no aparezca detrás de nada */
+  nav ul {
+    position: absolute;
+    z-index: 9998;
+  }
+
+  /* Prevenir que un nav overflow o contenedor lo oculte */
+  .topbar, .nav-flex, nav {
+    overflow: visible !important;
+  }
+}
