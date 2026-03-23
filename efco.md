@@ -5,7 +5,7 @@ title: EFCO – Escuela de Formación en Coaching Ontológico
 
 <!-- HERO EFCO -->
 <div class="page-hero-efco">
-  <img src="{{ '/assets/img/efco-hero.jpg' | relative_url }}" alt="EFCO Hero">
+  <img src="{{ '/assets/img/efco-hero.png' | relative_url }}" alt="EFCO Hero">
   <div class="page-hero-efco-overlay">
     <h1>Escuela de Formación en Coaching Ontológico</h1>
   </div>
