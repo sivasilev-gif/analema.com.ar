@@ -477,3 +477,52 @@ h1, h2 {
 .ac-title {
   margin-bottom: 6px;      /* Reduce espacio entre pregunta y contenido */
 }
+
+/* ====================================
+   EFCO — Optimización de lectura
+   ==================================== */
+
+/* Compacta el interlineado general del contenido */
+.ac-content {
+  white-space: pre-line;
+  line-height: 1.45;
+  padding-bottom: 10px;
+}
+
+/* Párrafos más cercanos entre sí */
+.ac-content p {
+  margin: 4px 0 10px 0;
+  line-height: 1.45;
+}
+
+/* Listas ordenadas y sin espacios innecesarios */
+.ac-content ul {
+  margin: 6px 0 10px 20px;
+  padding-left: 0;
+}
+
+.ac-content li {
+  margin: 2px 0;
+  line-height: 1.4;
+}
+
+/* Negritas ajustadas para no abrir espacio demás */
+.ac-content strong {
+  line-height: 1.35;
+}
+
+/* Subtítulos dentro de contenido (los <u> + strong) */
+.ac-content h3,
+.ac-content h4,
+.ac-content h5 {
+  margin: 10px 0 6px 0;
+  line-height: 1.35;
+}
+
+/* El título de cada FAQ (pregunta) */
+.ac-title {
+  color: #d50064; /* rosa institucional */
+  font-weight: 600;
+  margin: 0;
+  padding: 5px 0;
+}
