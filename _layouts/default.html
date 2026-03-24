@@ -8,41 +8,44 @@
   <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
   <link rel="icon" type="image/png" href="{{ '/favicon.png' | relative_url }}">
   <link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}">
-  
-  <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=45' | relative_url }}">
+
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=50' | relative_url }}">
 </head>
 
-<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
-  
 <body>
 
 <header class="topbar">
   <div class="container nav-flex">
 
-    {{ 
+    <!-- LOGO -->
+    <img src="{{ '/assets/img/logo.png' | relative_url }}" 
+         alt="Analema Consulting" 
+         class="logo">
 
-    <!-- BOTÓN HAMBURGUESA (FALTABA AQUÍ) -->
+    <!-- BOTÓN HAMBURGUESA -->
     <button class="menu-toggle" aria-label="Abrir menú">☰</button>
 
+    <!-- NAV -->
     <nav>
       <ul class="main-menu">
 
-        <li>{{ Inicio</a></li>
-        <li>{{ Nosotros</a></li>
+        <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
+        <li><a href="{{ '/about' | relative_url }}">Nosotros</a></li>
 
         <li class="has-submenu">
-          {{ Servicios ▾</a>
+          <a href="{{ '/servicios' | relative_url }}">Servicios ▾</a>
           <ul class="submenu">
-            <li>{{ EFCO – Escuela de Coaching</a></li>
-            <li>{{ Organizaciones</a></li>
-            <li>{{ Automatización</a></li>
+            <li><a href="{{ '/efco' | relative_url }}">EFCO – Escuela de Coaching</a></li>
+            <li><a href="{{ '/organizaciones' | relative_url }}">Organizaciones</a></li>
+            <li><a href="{{ '/automatizacion' | relative_url }}">Automatización</a></li>
           </ul>
         </li>
 
-        <li>{{ Contacto</a></li>
+        <li><a href="{{ '/contacto' | relative_url }}">Contacto</a></li>
 
       </ul>
     </nav>
+
   </div>
 </header>
 
@@ -82,6 +85,99 @@
     © {{ site.time | date: "%Y" }} Analema Consulting · Todos los derechos reservados
   </div>
 </footer>
-  
+
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} – Analema Consulting</title>
+
+  <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/favicon.png' | relative_url }}">
+  <link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}">
+
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=42' | relative_url }}">
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="container nav-flex">
+
+    <!-- LOGO -->
+    <img src="{{ '/assets/img/logo.png' | relative_url }}" 
+         alt="Analema Consulting" 
+         class="logo">
+
+    <!-- BOTÓN HAMBURGUESA -->
+    <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+
+    <!-- NAV -->
+    <nav>
+      <ul class="main-menu">
+
+        <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
+        <li><a href="{{ '/about' | relative_url }}">Nosotros</a></li>
+
+        <li class="has-submenu">
+          <a href="{{ '/servicios' | relative_url }}">Servicios ▾</a>
+          <ul class="submenu">
+            <li><a href="{{ '/efco' | relative_url }}">EFCO – Escuela de Coaching</a></li>
+            <li><a href="{{ '/organizaciones' | relative_url }}">Organizaciones</a></li>
+            <li><a href="{{ '/automatizacion' | relative_url }}">Automatización</a></li>
+          </ul>
+        </li>
+
+        <li><a href="{{ '/contacto' | relative_url }}">Contacto</a></li>
+
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+<main class="page-content container">
+  {{ content }}
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+
+    <div class="footer-column">
+      <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="Logo Analema" class="footer-logo">
+      <p class="footer-description">
+        Transformación personal, organizacional y tecnológica.
+      </p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Institucional</h4>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
+        <li><a href="{{ '/about' | relative_url }}">Nosotros</a></li>
+        <li><a href="{{ '/servicios' | relative_url }}">Servicios</a></li>
+        <li><a href="{{ '/contacto' | relative_url }}">Contacto</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Contacto</h4>
+      <p><a href="mailto:info@analema.com.ar">info@analema.com.ar</a></p>
+      <p>San Miguel, Buenos Aires</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © {{ site.time | date: "%Y" }} Analema Consulting · Todos los derechos reservados
+  </div>
+</footer>
+
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+
 </body>
 </html>
