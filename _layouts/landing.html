@@ -5,46 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} – Analema Consulting</title>
 
+  <!-- Favicons -->
   <link rel="icon" type="image/png" href="{{ '/favicon.png' | relative_url }}">
   <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
   <link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}">
 
-  <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=50' | relative_url }}">
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=41' | relative_url }}">
 </head>
 
-<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
-  
 <body>
 
 <header class="topbar">
   <div class="container nav-flex">
-    <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="Analema Consulting" class="logo">
 
+    <!-- LOGO -->
+    <a href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="Analema Consulting" class="logo">
+    </a>
+
+    <!-- HAMBURGUESA -->
     <button class="menu-toggle" aria-label="Abrir menú">☰</button>
-    
+
+    <!-- MENÚ -->
     <nav>
-  <ul class="main-menu">
+      <ul class="main-menu">
 
-    <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
-    <li><a href="{{ '/about' | relative_url }}">Nosotros</a></li>
+        <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
+        <li><a href="{{ '/about' | relative_url }}">Nosotros</a></li>
 
-    <!-- MENÚ SERVICIOS CON SUBMENÚ -->
-    <li class="has-submenu">
-      <a href="{{ '/servicios' | relative_url }}">Servicios ▾</a>
-      <ul class="submenu">
-        <li><a href="{{ '/efco' | relative_url }}">EFCO – Escuela de Coaching</a></li>
-        <li><a href="{{ '/organizaciones' | relative_url }}">Organizaciones</a></li>
-        <li><a href="{{ '/automatizacion' | relative_url }}">Automatización</a></li>
+        <li class="has-submenu">
+          <a href="{{ '/servicios' | relative_url }}">Servicios ▾</a>
+          <ul class="submenu">
+            <li><a href="{{ '/efco' | relative_url }}">EFCO – Escuela de Coaching</a></li>
+            <li><a href="{{ '/organizaciones' | relative_url }}">Organizaciones</a></li>
+            <li><a href="{{ '/automatizacion' | relative_url }}">Automatización</a></li>
+          </ul>
+        </li>
+
+        <li><a href="{{ '/contacto' | relative_url }}">Contacto</a></li>
+
       </ul>
-    </li>
+    </nav>
 
-    <li><a href="{{ '/contacto' | relative_url }}">Contacto</a></li>
-
-  </ul>
-</nav>
   </div>
 </header>
 
+<!-- HERO INICIAL DE LA LANDING -->
 <section class="hero">
   <div class="hero-overlay">
     <span class="tagline">AHORA SOMOS…</span>
@@ -56,6 +63,7 @@
   {{ content }}
 </main>
 
+<!-- FOOTER -->
 <footer class="footer">
   <div class="container footer-grid">
 
@@ -89,6 +97,8 @@
   </div>
 </footer>
 
+<!-- JavaScript -->
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+
 </body>
 </html>
-``
