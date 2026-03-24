@@ -18,27 +18,31 @@
 
 <header class="topbar">
   <div class="container nav-flex">
-    <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="Analema Consulting" class="logo">
+
+    {{ 
+
+    <!-- BOTÓN HAMBURGUESA (FALTABA AQUÍ) -->
+    <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+
     <nav>
-  <ul class="main-menu">
+      <ul class="main-menu">
 
-    <li><a href="{{ '/' | relative_url }}">Inicio</a></li>
-    <li><a href="{{ '/about' | relative_url }}">Nosotros</a></li>
+        <li>{{ Inicio</a></li>
+        <li>{{ Nosotros</a></li>
 
-    <!-- MENÚ SERVICIOS CON SUBMENÚ -->
-    <li class="has-submenu">
-      <a href="{{ '/servicios' | relative_url }}">Servicios ▾</a>
-      <ul class="submenu">
-        <li><a href="{{ '/efco' | relative_url }}">EFCO – Escuela de Coaching</a></li>
-        <li><a href="{{ '/organizaciones' | relative_url }}">Organizaciones</a></li>
-        <li><a href="{{ '/automatizacion' | relative_url }}">Automatización</a></li>
+        <li class="has-submenu">
+          {{ Servicios ▾</a>
+          <ul class="submenu">
+            <li>{{ EFCO – Escuela de Coaching</a></li>
+            <li>{{ Organizaciones</a></li>
+            <li>{{ Automatización</a></li>
+          </ul>
+        </li>
+
+        <li>{{ Contacto</a></li>
+
       </ul>
-    </li>
-
-    <li><a href="{{ '/contacto' | relative_url }}">Contacto</a></li>
-
-  </ul>
-</nav>
+    </nav>
   </div>
 </header>
 
