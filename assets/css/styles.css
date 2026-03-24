@@ -985,3 +985,7 @@ nav,
     display: block;
   }
 }
+
+.page-hero-efco-overlay h1 {
+  color: white !important;
+}
