@@ -97,7 +97,7 @@ Te ofrecemos la posibilidad de profesionalizarte en los otros dos ámbitos de la
 <p><strong><u>Días y horarios</u></strong></p>
 
 <p><strong>Primer año:</strong><br>
-Presencial-online una vez por semana, <strong>miércoles de 19 a 21:30 h</strong>, del 1° de abril al 17 de noviembre (8 módulos de 4 clases).</p>
+Presencial-online una vez por semana, <strong>miércoles de 19 a 21:30 h</strong>, del 8 de abril al 2 de diciembre (9 módulos de 4 clases).</p>
 
 <p><strong>Segundo año:</strong><br>
 Presencial-online dos veces por semana, <strong>martes y jueves de 19 a 22 h</strong>.</p>
