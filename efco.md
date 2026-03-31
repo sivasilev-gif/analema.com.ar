@@ -76,7 +76,7 @@ Es una etapa mucho más intensiva, con práctica profesional acompañada y más 
   <label for="faq3" class="ac-title">¿Qué pasa cada año?</label>
   <div class="ac-content">
 
-<p><strong><u>primer año</u></strong><br>
+<p><strong><u>Primer año</u></strong><br>
 En este año trabajamos en la incorporación de las competencias básicas del coaching: el hablar asertivamente, el escuchar profundamente y el gestionar nuestras emociones, entre otras.</p> 
 
 <p><strong><u>Segundo año</u></strong><br>
