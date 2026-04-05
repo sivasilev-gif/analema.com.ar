@@ -49,7 +49,7 @@ Podés sumarte hasta el <strong>27 de junio</strong>.</p>
 
 <p><strong>➡️ Costo del primer año</strong><br>
 Primer año organizado en módulos de cuatro clases.<br>
-Cada módulo tiene un valor de <strong>AR$ 30.000</strong>, lo que te sale un combo de comida rápida.</p>
+Cada módulo tiene un valor de <strong>AR$ 30.000</strong> en Argentina o <strong>u$s 25</strong> si cursas desde el exterior ¡Lo que te sale un combo de comida rápida!</p>
 
 <p><strong>➡️ Costo del segundo año</strong><br>
 El segundo año la exigencia pedagógica y carga horaria aumentan significativamente.<br>
